@@ -1,0 +1,29 @@
+U ovom zadatku praviti cemo jednostavnu Currency Converter aplikaciju. Aplikacija ima za cilj konverziju iznosa
+iz jedne valute u drugu. Jedine dvije value koje cemo za sada iplementirati su BAM i EUR.
+
+Implementirati slijedece:
+
+1. Klikom na dugme `Izracunaj` treba da se pokupi iznos koji je unesen u input sa id-em `valuta1`, izracuna rezultat,
+te isti smjesti u polje sa id-em `valuta2`
+2. Pri tome imati na umu i validaciju. Prilikom klika na dugme `Izracunaj`, ako nista nije uneseno u `valuta1` polje,
+prikazati gresku sa id-em `error`.
+3. Prilikom unosa iznosa u polje `valuta1` sprijeciti korisnika da unosi slova
+4. Klikom na dugme `Zamijeni` treba da se zamijeni trenutni raspored valuta. Npr ako je bilo iz BAM u EUR, da sada
+bude iz EUR u BAM i obratno. Obratiti pozornost da se i naziv samih labela iznad odgovarajuceg inputa promijeni (valuta1Label
+i valuta1Label).
+
+//English translation
+
+In this task, we will create a simple Currency Converter application. The application aims to convert amounts
+from one currency to another. The only two values that we will implement for now are BAM and EUR.
+
+Implement the following:
+
+1. By clicking on the `Calculate' button, the amount entered in the input with the id `currency1' should be collected, the result calculated,
+and place it in the field with the id `currency2`
+2. At the same time, keep validation in mind. When clicking the `Calculate' button, if nothing is entered in the `currency1' field,
+display error with id `error`.
+3. When entering the amount in the `currency1` field, prevent the user from entering letters
+4. By clicking on the ``Replace'' button, the current arrangement of currencies should be replaced. For example, if it was from BAM to EUR, yes now
+be from EUR to BAM and vice versa. Pay attention that the name of the labels themselves above the corresponding input is changed (currency1Label
+and currency1Label).
